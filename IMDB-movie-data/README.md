@@ -42,7 +42,7 @@ This data set contains information about 10,000 movies extracted from [IMDB](htt
 - Is there a correlation between a movie budget and its revenue?
 
 ## Data Wrangling:
-Our data can be found on `tmdb-movies.csv` file provided on this repository. It is an edited version of the original Kaggle's [IMDB 5000 Movie Dataset](https://www.kaggle.com/tmdb/tmdb-movie-metadata) provided by Udacity on the Become a Data Analyst Nanodegree Program. 
+Our data can be found on `tmdb-movies.csv` file provided on this repository. It is an edited version of the original Kaggle's [IMDB 5000 Movie Dataset](https://www.kaggle.com/tmdb/tmdb-movie-metadata).
 
 ## Data Cleaning:
 **Main Observations:**
