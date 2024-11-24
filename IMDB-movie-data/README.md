@@ -14,7 +14,7 @@
 ## Dataset Description: 
 This data set contains information about 10,000 movies extracted from [IMDB](https://www.themoviedb.org/). The dataset contains movies from 1960 to 2015. Including user ratings and revenue. Original data from [Kaggle](https://www.kaggle.com/tmdb/tmdb-movie-metadata)
 
-## Columns Descreption:
+## Columns Description:
 - `id, imdb_id`: unique id or imdb id for each movie on IMDB
 - `popularity`: a metric used to measure the popularity of the movie.
 - `budget`:the total budget of the moviein USD.
