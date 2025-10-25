@@ -1,0 +1,108 @@
+
+================================================================================
+APPLE STOCK PRICE PREDICTION - MODEL EVALUATION REPORT
+================================================================================
+
+DATASET INFORMATION:
+- Historical Data Points: 4512
+- Date Range: 1980-12-12 00:00:00-05:00 to 2025-03-07 00:00:00-05:00
+- Features: 32
+- Training Samples: 275
+- Test Samples: 69
+
+================================================================================
+MODEL PERFORMANCE SUMMARY (Sorted by R²):
+================================================================================
+
+Linear Regression:
+  Test R²:     0.9545
+  Test RMSE:   $6.38
+  Test MAE:    $2.62
+  Test MAPE:   1.21%
+
+Ridge:
+  Test R²:     0.9521
+  Test RMSE:   $6.54
+  Test MAE:    $2.72
+  Test MAPE:   1.26%
+
+Lasso:
+  Test R²:     0.9312
+  Test RMSE:   $7.84
+  Test MAE:    $4.66
+  Test MAPE:   2.06%
+
+Random Forest:
+  Test R²:     -0.5637
+  Test RMSE:   $37.39
+  Test MAE:    $29.90
+  Test MAPE:   12.71%
+
+AdaBoost:
+  Test R²:     -0.5850
+  Test RMSE:   $37.65
+  Test MAE:    $29.35
+  Test MAPE:   12.38%
+
+KNN:
+  Test R²:     -0.5894
+  Test RMSE:   $37.70
+  Test MAE:    $30.35
+  Test MAPE:   12.95%
+
+Decision Tree:
+  Test R²:     -0.6324
+  Test RMSE:   $38.21
+  Test MAE:    $31.18
+  Test MAPE:   13.35%
+
+Gradient Boosting:
+  Test R²:     -0.6348
+  Test RMSE:   $38.23
+  Test MAE:    $29.99
+  Test MAPE:   12.67%
+
+SVR:
+  Test R²:     -2.8997
+  Test RMSE:   $59.05
+  Test MAE:    $47.27
+  Test MAPE:   20.04%
+
+================================================================================
+BEST MODEL: Linear Regression
+================================================================================
+Test R² Score:  0.9545
+Test RMSE:      $6.38
+Test MAE:       $2.62
+Test MAPE:      1.21%
+
+================================================================================
+KEY STATISTICS:
+================================================================================
+Current Price (Latest):     $238.49
+52-Week High:               $259.18
+52-Week Low:                $122.44
+Average Daily Volume (1Y):  59,238,746
+Average Daily Return:       0.2926%
+Annualized Volatility:      83.51%
+
+================================================================================
+FILES GENERATED:
+================================================================================
+1. apple_merged_data.csv - Merged historical & financial data
+2. model_performance_apple.csv - Model comparison metrics
+3. feature_importance_apple.csv - Feature importance rankings
+4. apple_visualizations/ - 7 comprehensive visualizations
+
+VISUALIZATIONS:
+- 01_stock_overview.png
+- 02_technical_indicators.png
+- 03_model_performance.png
+- 04_predictions.png
+- 05_feature_importance.png
+- 06_yearly_analysis.png
+- 07_advanced_analytics.png
+
+================================================================================
+END OF REPORT
+================================================================================
